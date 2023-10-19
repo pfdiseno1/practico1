@@ -1,0 +1,97 @@
+body{
+    background-image: url(./assets/img/paper-style-white-monochrome-background_52683-66443.avif)}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icono{
+    color: rgb(48, 191, 216);
+    }
+.button{
+    margin: 30px;
+    text-align: center;
+}
+.button:hover{
+    color: blue;
+    background-color: goldenrod;
+    margin: 30px;
+    padding-bottom: 100px;
+    text-justify: distribute-all-lines;
+    text-shadow: 50%;
+    font-size: medium ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+.musica{
+   margin: 110px;
+   width: 600px;
+   height: 300px;
+   border-radius: 5% 10% 5% 10% ; 
+   border-color: rgba(238, 235, 39, 0.932); 
+   border-style: solid; 
+   text-align: center; color: #f5eaea;
+   font-size: 20px;
+   vertical-align: sub ;
+   background-image: url(./assets/img/Disco-musical.img.jpeg);
+    background-position: left;
+    flex-direction: row;
+        
+
+        }  
+.Gastronomia{
+    margin: 110px;
+    width: 600px;
+    height: 300px;
+    border-radius: 5% 5%;
+    border-color: rgb(31, 70, 143);
+    border-style: double;
+    font-size: 25px;
+    text-decoration: wavy; color: rgb(221, 216, 228);
+    text-align: center; vertical-align: sub;
+    background-image: url(./assets/img/pastas.jpeg);
+    background-position-y: sub;
+    flex-direction: row;
+}
+
+.Hoobies{
+    margin: 110px;
+    width: 600px;
+    height: 325px;
+    border-radius: 5% 5%;
+    border-color:black;
+    border-style: double;
+    font-size: 25px;
+    text-decoration: wavy; color: rgb(177, 44, 44);
+    text-align: center; vertical-align: sub;
+    background-image: url(./assets/img/hombre-en-el-lago.jpg);
+    background-position-y: 100%;
+    flex-direction: initial;
+   
+}
+
+.principal{
+    text-align: center;
+    font-size: 50px;
+
+
+}
+        .Profesion{
+            margin: 110px;
+            width: 600px;
+            height: 325px;
+            border-color: rgb(228, 214, 27);
+            border-style: ridge;
+            border-radius: 5% 5% 5% 5%;
+            font-size: 25px;
+            text-decoration: wavy; color: rgb(23, 10, 99);
+            text-align: center; vertical-align: sub;
+            background-image: url(./assets/img/hombre-con-barra.avif);
+            background-position-y: top;
+            background-position-x: left ;
+            flex-direction: row;
+            
+
+        }
