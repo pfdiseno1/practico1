@@ -2,31 +2,26 @@ body{
     background-image: url(./assets/img/paper-style-white-monochrome-background_52683-66443.avif)}
 
 .contenedor{
-    display: flex;
+    display: flex; align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .icono{
     color: rgb(48, 191, 216);
     }
-.button{
-    margin: 30px;
+
+h1{
+margin: 40px;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    border-color: dodgerblue;
+    border-style: double;
 }
-.button:hover{
-    color: blue;
-    background-color: goldenrod;
-    margin: 30px;
-    padding-bottom: 100px;
-    text-justify: distribute-all-lines;
-    text-shadow: 50%;
-    font-size: medium ;
-    font-family: Arial, Helvetica, sans-serif;
-}
-  
 
 .musica{
-   margin: 110px;
+   margin: 100px;
    width: 600px;
    height: 300px;
    border-radius: 5% 10% 5% 10% ; 
@@ -42,7 +37,7 @@ body{
 
         }  
 .Gastronomia{
-    margin: 110px;
+    margin: 100px;
     width: 600px;
     height: 300px;
     border-radius: 5% 5%;
@@ -57,7 +52,7 @@ body{
 }
 
 .Hoobies{
-    margin: 110px;
+    margin: 100px;
     width: 600px;
     height: 325px;
     border-radius: 5% 5%;
@@ -79,7 +74,7 @@ body{
 
 }
         .Profesion{
-            margin: 110px;
+            margin: 100px;
             width: 600px;
             height: 325px;
             border-color: rgb(228, 214, 27);
